@@ -1,0 +1,19 @@
+{
+  "name": "soga-software/generator",
+  "description": "Generator soga-software package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luan Le",
+      "email": "leminhluan4244@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Soga\\Generator\\": "src/"
+    }
+  }
+}
