@@ -1,11 +1,11 @@
 <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-wrapper" id="kt_wrapper">
     <!-- begin:: Header -->
-    @include('admin.layouts.body.content.webhead')
+    @include('generator::generator.theme.metronic.layouts.body.content.webhead')
     <!-- end:: Header -->
     <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor">
 
         <!-- begin:: Subheader -->
-        @include('admin.layouts.body.content.subcontent')
+        @include('generator::generator.theme.metronic.layouts.body.content.subcontent')
         <!-- end:: Subheader -->
 
         <!-- begin:: Content -->
@@ -16,7 +16,7 @@
     </div>
 
     <!-- begin:: Footer -->
-    @include('admin.layouts.body.content.footer')
+    @include('generator::generator.theme.metronic.layouts.body.content.footer')
 
     <!-- end:: Footer -->
 </div>

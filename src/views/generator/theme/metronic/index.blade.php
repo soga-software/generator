@@ -2,10 +2,10 @@
 
 <html lang="{{ app()->getLocale() }}">
 	<!-- begin::Head -->
-	@include('admin.layouts.head.head')
+	@include('generator::generator.theme.metronic.layouts.head.head')
 	<!-- end::Head -->
 
 	<!-- begin::Body -->
-	@include('admin.layouts.body.body')
+	@include('generator::generator.theme.metronic.layouts.body.body')
 	<!-- end::Body -->
 </html>

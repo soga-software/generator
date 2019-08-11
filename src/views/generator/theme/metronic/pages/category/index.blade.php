@@ -1,4 +1,4 @@
-@extends('admin.index')
+@extends('generator::generator.theme.metronic.index')
 
 @section('page')
 <!--Begin::Section-->

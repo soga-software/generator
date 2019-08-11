@@ -22,7 +22,7 @@ class GeneratorServiceProvider extends ServiceProvider
         );
         $this->publishes([
             __DIR__.'/config/generator.php' => config_path('generator.php'),
-            __DIR__.'/views/generator.blade.php' => resource_path('views/vendor/generator/generator.blade.php'),
+            __DIR__.'/views/generator' => resource_path('views/vendor/generator'),
         ]);
     }
 
